@@ -7,11 +7,14 @@
     <script type="text/JavaScript" src="../../../JavaScripts/tip_balloon.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script type="text/javascript">
+    
+      
     function PopupPref() {  
     var Page="Preferences.aspx?RepID="+document.getElementById("<%=hidReportVal.ClientID%>").value;            
   newwin = window.open(Page, '_blank');
+    alert("Hi");  
 }
-
+   
         function ShowPopWindow(Page, HidID) {
             //window.open('ItemSearch.aspx', 'ItemSearch', 'status=0,toolbar=0,location=0,menubar=0,directories=0,resizable=0,scrollbars=0,height=400,width=600');  
 
