@@ -13,6 +13,8 @@
     var Page="Preferences.aspx?RepID="+document.getElementById("<%=hidReportVal.ClientID%>").value;            
   newwin = window.open(Page, '_blank');
     alert("Hi");  
+
+alert("ss");
 }
    
         function ShowPopWindow(Page, HidID) {
